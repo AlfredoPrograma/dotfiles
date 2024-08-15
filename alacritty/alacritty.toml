@@ -1,0 +1,9 @@
+import = [
+	"~/.config/alacritty/themes/themes/catppuccin_frappe.toml"
+]
+
+[window]
+padding = { x = 16, y = 16 }
+
+[font]
+normal = { family = "Monaspace Neon" }
