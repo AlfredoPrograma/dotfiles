@@ -196,6 +196,7 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 # Screenshots shortcuts
 bindsym $mod+P exec --no-startup-id maim | xclip -selection clipboard -t image/png
 bindsym $mod+Shift+P exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+bindsym $mod+O exec --no-startup-id maim -u ~/Pictures/Screenshots/$(date +%s).png
 
 # Start Polybar
 exec --no-startup-id polybar
