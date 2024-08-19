@@ -90,4 +90,9 @@ return {
 	{
 		"hrsh7th/vim-vsnip",
 	},
+
+	-- Zen mode
+	{
+		"folke/zen-mode.nvim",
+	}
 }	
